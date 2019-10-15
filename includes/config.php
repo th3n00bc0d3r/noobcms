@@ -10,7 +10,7 @@
     define('DBHOST', 'localhost');
     define('DBUSER', 'root');
     define('DBPASS', '');
-    define('DBNAME', 'noob_cms');
+    define('DBNAME', 'noob_db');
 
     //CREATE CONNECTION
     $conn = mysqli_connect(DBHOST, DBUSER, DBPASS, DBNAME);
